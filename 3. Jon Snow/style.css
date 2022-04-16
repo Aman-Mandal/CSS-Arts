@@ -4,3 +4,299 @@
   box-sizing: inherit;
 }
 
+.container {
+  height: 150vh;
+  width: 150vw;
+  /* background-color: aqua; */
+}
+
+.hair {
+  background-color: #453131;
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+.hair_middle {
+  height: 200px;
+  width: 180px;
+  border-radius: 90px 60px 160px;
+}
+
+/* Left Hair */
+.hair_left--one {
+  height: 100px;
+  width: 150px;
+  border-radius: 0 0 100% 150%;
+  left: 370px;
+  top: 300px;
+}
+
+.hair_left--two {
+  height: 100px;
+  width: 150px;
+  border-radius: 0 0 100% 150%;
+  left: 345px;
+  top: 340px;
+}
+
+.hair_left--three {
+  height: 100px;
+  width: 150px;
+  border-radius: 0 0 100% 150%;
+  left: 320px;
+  top: 380px;
+}
+
+.hair_left--four {
+  height: 120px;
+  width: 60px;
+  left: 350px;
+  top: 440px;
+}
+
+/* Right hair */
+
+.hair_right--one {
+  height: 60px;
+  width: 120px;
+  border-radius: 70px 70px 0 0;
+  left: 560px;
+  top: 270px;
+}
+
+.hair_right--two {
+  height: 80px;
+  width: 80px;
+  left: 650px;
+  top: 290px;
+  border-radius: 50px;
+}
+
+.hair_right--three {
+  height: 80px;
+  width: 80px;
+  left: 680px;
+  top: 310px;
+  border-radius: 50px;
+}
+
+.hair_right--four {
+  height: 70px;
+  width: 140px;
+  border-radius: 0 0 500px 500px;
+  left: 640px;
+  top: 330px;
+}
+
+.hair_right--five {
+  height: 70px;
+  width: 140px;
+  border-radius: 0 0 500px 500px;
+  left: 660px;
+  top: 360px;
+}
+
+.hair_right--six {
+  height: 70px;
+  width: 140px;
+  border-radius: 0 0 500px 500px;
+  left: 680px;
+  top: 390px;
+}
+
+.hair_right--seven {
+  height: 120px;
+  width: 60px;
+  left: 750px;
+  top: 430px;
+}
+
+.hair_right--eight {
+  height: 40px;
+  width: 80px;
+  border-radius: 50px 50px 0 0;
+  top: 542px;
+  left: 732px;
+  z-index: -11;
+}
+
+.hair_right--nine {
+  height: 40px;
+  width: 80px;
+  border-radius: 50px 50px 0 0;
+  top: 570px;
+  left: 730px;
+  z-index: -11;
+}
+
+/* Face */
+
+.face {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  left: 400px;
+  top: 330px;
+  border-radius: 0 0 50px 50px;
+  background-color: #f0c8aa;
+  z-index: -10;
+}
+
+/* Ears */
+.ear {
+  height: 70px;
+  width: 50px;
+  border-radius: 50px 0 0 50px;
+  background-color: #d19a84;
+  position: absolute;
+  top: 480px;
+}
+
+.ear_left {
+  left: 361px;
+}
+
+.ear_right {
+  left: 749px;
+  transform: rotate(180deg);
+}
+
+.inner_ear {
+  position: absolute;
+  background-color: #a1644c;
+  height: 45px;
+  width: 30px;
+  top: 490px;
+  border-radius: 50px 0 0 50px;
+}
+
+.inner_ear-left {
+  left: 380px;
+}
+
+.inner_ear-right {
+  left: 750px;
+  transform: rotate(180deg);
+}
+
+/* Eyebrows */
+.eyebrows {
+  height: 0;
+  position: absolute;
+  width: 0;
+  top: 50px;
+  border-bottom: 110px solid #231f20;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.eyebrow_left {
+  left: 80px;
+  transform: rotate(275deg);
+}
+
+.eyebrow_right {
+  left: 240px;
+  transform: rotate(85deg);
+}
+
+.mouth {
+  position: absolute;
+  top: 290px;
+  left: 130px;
+  height: 7px;
+  width: 80px;
+  z-index: 1;
+  box-shadow: 0 5px 0 15px #f0c8aa;
+  background-color: #231f20;
+}
+
+/* Beard */
+
+.beard {
+  position: absolute;
+  background-color: #755353;
+}
+.beard_front {
+  top: 260px;
+  left: 100px;
+  width: 140px;
+  height: 90px;
+  border-radius: 20px;
+}
+
+/* Shoulder */
+.shoulder_left {
+  position: absolute;
+  height: 80px;
+  width: 150px;
+  background-color: yellow;
+  top: 680px;
+  border-radius: 60px 0;
+}
+
+.shoulder_left--one {
+  height: 100px;
+  background-color: black;
+  left: 420px;
+}
+.shoulder_left--two {
+  height: 90px;
+  background-color: #474747;
+  left: 410px;
+}
+.shoulder_left--three {
+  height: 80px;
+  background-color: #333333;
+  left: 380px;
+}
+.shoulder_left--four {
+  height: 70px;
+  background-color: #292929;
+  left: 350px;
+}
+.shoulder_right--one {
+  border-radius: 0 60px;
+  height: 100px;
+  background-color: black;
+  left: 570px;
+}
+.shoulder_right--two {
+  border-radius: 0 60px;
+  height: 90px;
+  background-color: #474747;
+  left: 580px;
+}
+.shoulder_right--three {
+  border-radius: 0 60px;
+  height: 80px;
+  background-color: #333333;
+  left: 610px;
+}
+.shoulder_right--four {
+  border-radius: 0 60px;
+  height: 70px;
+  background-color: #292929;
+  left: 640px;
+}
+
+/* Body */
+.body_triangle {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: #84858A;
+}
+
+.tri-one{
+  border: 1px solid black;
+  top: 690px;
+  left: 450px;
+  z-index: -2;
+}
+.tri-two{
+  border: 1px solid black;
+  top: 750px;
+  left: 450px;
+  z-index: -3;
+}
