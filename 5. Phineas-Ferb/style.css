@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  /* border: 1px solid black; */
+}
+
+.face-container {
+  position: relative;
+}
+.face {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 90px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 200px solid #f6d5bb;
+  transform: rotate(5deg);
+  /* border: 3px solid #df9768; */
+}
+
+.eyes {
+  position: absolute;
+  background-color: white;
+  height: 55px;
+  width: 65px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.left-eye {
+  top: -30px;
+  left: 90px;
+}
+
+.left-eye::before {
+  content: '';
+  position: absolute;
+  background-color: black;
+  height: 27px;
+  width: 25px;
+  top: 25px;
+  left: 18px;
+  border-radius: 50%;
+}
+
+.left-eye::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 10px;
+  width: 12px;
+  border-radius: 50%;
+  top: 28px;
+  left: 24px;
+}
+
+.right-eye {
+  top: -35px;
+  left: 120px;
+  z-index: -1;
+}
+
+.right-eye::before {
+  content: '';
+  position: absolute;
+  background-color: black;
+  height: 27px;
+  width: 25px;
+  border-radius: 50%;
+  top: 17px;
+  left: 23px;
+}
+
+.right-eye::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 10px;
+  width: 12px;
+  left: 29px;
+  top: 23px;
+  border-radius: 50%;
+}
+
+.mouth {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  left: 120px;
+  top: 85px;
+  border-radius: 0 0 50px 80px;
+  background-color: white;
+  transform: rotate(10deg);
+}
+
+.upper-teeth {
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  /* left: -5px; */
+  border-radius: 0 0 5px 0;
+  background-color: white;
+  border: 2px solid #f6d5bb;
+}
+
+.lower-teeth {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  background-color: white;
+  top: 33px;
+  left: 10px;
+  border-radius: 0 0 0 30px;
+  transform: rotate(10deg);
+  border: 2px solid #f6d5bb;
+}
